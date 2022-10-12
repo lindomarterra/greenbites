@@ -87,7 +87,7 @@ main section #infoSide  ul li {
 }
 
 main section #infoSide #phone {
-    display: flex; gap: 1rem; 
+    display: flex; gap: 1rem; margin-top: 1rem;
 }
 
 main section #infoSide #phone a {  
@@ -144,7 +144,7 @@ main section #infoSide #phone img {  margin-top: .8rem; }
     main section #infoSide { width: 98%; }
     main section #infoSide ul li { padding: .5rem ; }
 
-   main section #infoSide #phone img {  margin-top: 0; }
+   main section #infoSide #phone img {  margin-top: -2px; }
     main section #infoSide #phone a img {  width: 23px; height: 23px;  }
 
 }
