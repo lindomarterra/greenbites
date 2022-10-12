@@ -144,7 +144,7 @@ main section #infoSide #phone img {  margin-top: .8rem; }
     main section #infoSide { width: 98%; }
     main section #infoSide ul li { padding: .5rem ; }
 
-   
+   main section #infoSide #phone img {  margin-top: 0; }
     main section #infoSide #phone a img {  width: 23px; height: 23px;  }
 
 }
