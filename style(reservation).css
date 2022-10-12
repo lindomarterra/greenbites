@@ -127,7 +127,7 @@ main section #infoSide #phone img {  margin-top: .8rem; }
 @media screen and (max-width: 720px) {
     
     main article h1 { font-size: 2rem; }
-    main article p {  font-size: 1.2rem;   padding-bottom: 2rem; }
+    main article p {  font-size: 1.2rem;   padding-bottom: 2rem;   padding-top:1rem; }
 
     main section { display: block;  margin: auto; }
     main section #imageSide { width: 98%;   margin: auto; }
