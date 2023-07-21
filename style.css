@@ -30,7 +30,7 @@ html{ scroll-behavior: smooth;}
 
 body{
     color: #fff;
-    background-color: var(--color9);
+    background-color: var(--color6);
 }
 
 #btn-check{ display: none;}
