@@ -18,6 +18,10 @@
 }
 
 
-
+.paragraph01{
+    background-color: var(--color1);
+    font-family: var(--font-2); 
+    color: var(--color2);
+}
 
 
