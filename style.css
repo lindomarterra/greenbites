@@ -90,10 +90,7 @@ header{
 
 main{ background-color: var(--color5);}
 
-
-.divInfo{
-    background-color: var(--color4);
-}
+.divInfo{background-color: var(--color4);}
 
 .divInfo h1{
     font-family: var(--font-4);
@@ -145,12 +142,16 @@ main{ background-color: var(--color5);}
     text-decoration: none;
     border: none;
     color:var(--color2);
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: var(--font-1);
     font-variant-caps: all-petite-caps;
+    transition: all 300ms ease-in-out;
 }
-.hover:hover{ opacity: 70%;}
+.hover:hover{ color: rgba(13, 100, 13, 0.384);}
 
+.imgHover{ transition: all 500ms ease-in-out;}
+
+.imgHover:hover{opacity: 60%;}
 
 
 
