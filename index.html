@@ -19,9 +19,27 @@
   </head>
   <body>  
 
+
+
+    <!--CONTACT-ICONS-->
+        <div class="contactIcons">
+          <a  href="https://web.whatsapp.com/send?phone=5551998068587" target="_blank" class="text-decoration-none">
+            <i class="bi-whatsapp"></i>
+          </a>
+          <br>
+          <span class="badge rounded-pill bg-danger text-white position-absolute ms-3 mt-0"
+                    title="My Shops!">
+                    <small>5</small>
+                  </span>
+          <a href="index(cart).html" target="_blank" class="text-decoration-none">
+            <i class="bi-cart"></i>
+          </a>
+        </div>
+
+
   
     <header class="shadow-lg">
-      <nav class="navbar navbar-expand-md shadow-lg">
+      <nav class="navbar navbar-expand-md shadow-lg" id="navBar">
         <div class="container">
 
           <a href="index.html"  class="navbar-brand" target="_self">
@@ -67,8 +85,9 @@
     </header>
 
 
+
     
-   <main class="py-3">
+   <main class="py-3" onmouseover="mouseOver()" onmouseout="mouseOut()" >
 
     <!--PHOTO AND TXT TERRA-->
       <section class="nameResto py-md-5">
@@ -94,12 +113,12 @@
 
      <section class="container my-5 text-center">
 
-        <h1 class="my-2 titleDiscoveryMenu"> Discovery Our Menu! </h1>
+        <h1 class="my-2 titleDiscoveryMenu"> Variety of Dishes </h1>
 
-      <div class="row g-3 my-4">
+      <div class="row g-3 ">
 
         <div class="position-relative col-md-3">
-            <a  href="index(pasta).html" target="_self" class="hover" > Dishes </a>
+            <a  href="index(pasta).html" target="_self" class="hover" > Pasta </a>
             <img src="img/dishes/pasta(400x600).png" alt="img" class="img-fluid">
         </div>
 
@@ -120,7 +139,7 @@
        
       </div>
 
-      <div class="row g-3 my-4">
+      <div class="row g-3 mt-1">
 
         <div class="position-relative col-md-3">
             <a  href="index(dissert).html" target="_self" class="hover" > Dissert </a>
@@ -158,13 +177,24 @@
       <img src="img/icons/organic.png" alt="img" class="img-fluid" style="width: 100px;" >
      </article>
 
+
+     <!--MENU-->
      <div class="text-center mt-5">
-      <a href="index(menu).html" target="_self" class="p-3 rounded-1 btnOurMenu" > Menu </a>
+      <a href="index(menu).html" target="_self" class="p-3 rounded-1 btnOurMenu" id="btnOurMenu" > Menu </a>
      </div>
 
 
 
+    <div class="carousel slide" id="banner" data-bs-ride="carousel">
+      <div class="carousel-indicators">
 
+        <div class="carousel-inner active" >
+          <img src="img/dishes/burger(400x600).png" alt="img" class="w-100">
+        </div>
+      </div>
+
+    </div>
+   
 
 
 
@@ -172,7 +202,7 @@
    </main>
 
 
-   <footer class="bg-danger p-5">
+   <footer class="bg-light p-5" onmouseover="mouseOver()" onmouseout="mouseOut()" >
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quisquam deserunt quaerat cum, doloremque, ea blanditiis tempora, repellendus aliquid temporibus at animi neque. Temporibus doloremque aspernatur nisi dolores. Exercitationem, dolores!
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptate nemo impedit recusandae optio minus quidem delectus sequi voluptatibus similique magni, mollitia dolore esse ratione dolores quam quis alias. Voluptate, velit placeat aut dignissimos nesciunt culpa maxime amet explicabo ratione sint! Laborum, sint natus veniam veritatis nobis quaerat! Ex, libero, ducimus iusto eaque officiis neque corrupti debitis soluta exercitationem delectus dignissimos incidunt ullam aliquam dicta error, a fugit dolore! Quibusdam maiores blanditiis nulla at rem molestiae nobis numquam quas, cum itaque minus culpa mollitia laboriosam soluta magni? Dolorum quae magnam iusto magni natus? Cupiditate exercitationem excepturi, eligendi dicta ipsam fugiat?

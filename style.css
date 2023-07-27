@@ -21,15 +21,50 @@
 }
 
 
+.contactIcons{
+    position: fixed;
+    z-index: 100;
+    bottom: 1%;
+    right: 4%;
+}
+.bi-whatsapp{
+    color: #067302;
+    font-size: 25px;
+    transition: all 300ms ease-in-out;
+}
+.bi-cart{
+    color: #222;
+    font-size: 25px;
+    font-weight: 700;
+}
+.bi-whatsapp:hover{opacity: 60%; font-size: 27px;}
+
+
+
+
+
+
 header{
     background-image: url(img/dishes/verticalRizzoto.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 98vh;
+    min-height: 100vh;
 }
 
-.navbar{background-color: rgba(245, 222, 179, 0.527);}
+.navbar{
+    background-color: rgba(245, 222, 179, 0.527); 
+    transition: all 500ms ease-in-out;
+}
+
+.eventScrool{
+    position: fixed; 
+    width: 100vw; 
+    background-color:  rgba(245, 222, 179, 0.877); 
+    z-index: 1000;
+}
+
+
 
 .logo{  
     width: 100px;
@@ -38,8 +73,6 @@ header{
 .logo:hover{opacity: 60%;}
 
 .nav-link{font-weight: 700; color: var(--color2); }
-
-
 
 
 
@@ -136,6 +169,10 @@ main{ background-color: var(--color5);}
     font-size: 1.2rem;
 }
 
+
+
+
+
 .btnOurMenu{
     text-decoration: none;
     font-family: var(--font-1);
@@ -144,5 +181,11 @@ main{ background-color: var(--color5);}
     background-color: var(--color2);
     text-shadow: 1px 1px 1px #222;
     box-shadow: 2px 2px 2px #222;
-
+    transition: all 500ms ease-in-out;
 }
+
+    .btnOurMenu:hover{
+        background-color: var(--color3);
+        color: var(--color2);
+    }
+
