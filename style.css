@@ -24,20 +24,28 @@
 .contactIcons{
     position: fixed;
     z-index: 100;
-    bottom: 1%;
-    right: 4%;
+    bottom: 0;
+    left: 2%;
+    cursor: pointer;
 }
-.bi-whatsapp{
-    color: #067302;
-    font-size: 25px;
-    transition: all 300ms ease-in-out;
-}
+.contactIcons:hover{opacity: 60%;}
+
 .bi-cart{
     color: #222;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
 }
-.bi-whatsapp:hover{opacity: 60%; font-size: 27px;}
+
+.bi-whatsapp{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    right: 2%;
+    color: #067302;
+    font-size: 30px;
+    transition: all 300ms ease-in-out;
+}
+.bi-whatsapp:hover{opacity: 60%; font-size: 32px;}
 
 
 
@@ -135,12 +143,9 @@ main{ background-color: var(--color5);}
 
 .hover{
     text-decoration: none;
-    position: absolute;
-    top: 40%;
-    left: 22%;
     border: none;
-    color: #fff;
-    font-size: 4.5rem;
+    color:var(--color2);
+    font-size: 3rem;
     font-family: var(--font-1);
     font-variant-caps: all-petite-caps;
 }
