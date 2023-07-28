@@ -111,17 +111,11 @@ main{ background-color: var(--color5);}
 
 .divInfo h6{
     color: rgba(255, 255, 255, 0.719);
-    font-size:1.3rem ;
-    line-height: 2rem;
     text-shadow: 1px 1px 1px #222222a1;
-
 }
 
 .divInfo h6 b{
-    font-style: italic;
-    font-weight: 700;
-    color: white;
-    font-size: 1.4rem;
+    font-family: var(--font-3);
 }
 
 
@@ -142,7 +136,7 @@ main{ background-color: var(--color5);}
     text-decoration: none;
     border: none;
     color:var(--color2);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: var(--font-1);
     font-variant-caps: all-petite-caps;
     transition: all 300ms ease-in-out;
@@ -195,3 +189,24 @@ main{ background-color: var(--color5);}
         color: var(--color2);
     }
 
+
+
+
+
+    .containerDivPartners{background-color: rgba(0, 128, 0, 0.322); }
+
+    .divPartners{
+        background-color: var(--color4);
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+
+    .titlePartners{
+        color: var(--color5);
+    }
+
+    .txtPartners{
+        color: var(--color5);
+        
+    }
