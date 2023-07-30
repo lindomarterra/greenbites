@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 :root{
  
+    user-select: none;
+
     --font-1: 'Bungee', cursive ;
     --font-2: 'PT Sans Narrow', sans-serif; ;
     --font-3: 'Bebas Neue', cursive;
@@ -20,6 +22,7 @@
     --color5:#F2D7B6;
 }
 
+/*ICONS*/
 
 .contactIcons{
     position: fixed;
@@ -52,12 +55,17 @@
 
 
 
+
+
+/*HEADER*/
+
 header{
     background-image: url(img/dishes/verticalRizzoto.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    position: relative;
 }
 
 .navbar{
@@ -72,8 +80,6 @@ header{
     z-index: 1000;
 }
 
-
-
 .logo{  
     width: 100px;
     transition: all 0.5s ease-in-out;
@@ -84,9 +90,52 @@ header{
 
 
 
+.titleGreen{
+    position: absolute;
+    bottom: 14%;
+    right: 17%;
+    font-family: var(--font-5);
+    color: var(--color2);
+    font-size: 4.5rem;
+    text-shadow: 1px 1px 1px #222222c0;
+    
+}
+.titleBites{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    font-family: var(--font-4);
+    color: var(--color1);
+    font-size: 2.5rem;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #222222c0;
+}
+
+
+.animationSlideDownOnBites{ animation: slideDownBites  4s; }
+.animationSlideDownOnGreen{ animation: slideDownGreen 2s;}
+
+@keyframes slideDownGreen { 
+    from{ line-height: 1500px; opacity: 0; } 
+    to{line-height: 20px; opacity: 1;} 
+}
+
+@keyframes slideDownBites { 
+    from{ line-height: 1500px; opacity: 0; } 
+    to{line-height: 20px; opacity: 1;} 
+}
 
 
 
+
+
+
+
+
+
+
+
+/*MAIN*/
 
 main{ background-color: var(--color5);}
 
@@ -142,7 +191,10 @@ main{ background-color: var(--color5);}
 }
 .hover:hover{ text-decoration: underline;}
 
-.imgHover{ transition: all 500ms ease-in-out;}
+.imgHover img{
+     transition: all 500ms ease-in-out;  
+     border: 1px solid #22222227; 
+}
 
 .imgHover:hover{opacity: 60%;}
 
@@ -220,6 +272,54 @@ main{ background-color: var(--color5);}
 
 
 
+/*ASIDE*/
+
+aside{background-color: rgb(165, 111, 9)  }
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+    background-image: url(img/others/backgroundFooter.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .filter{
+    background-color: #222222e5;
+}
+
+
+.linkFooter{
+    color: rgb(223, 174, 85);
+    font-family: var(--font-3);
+    font-size: 1.2rem;
+}
+
+.linkFooter:hover{ opacity: 60%;}
+
+footer form span{ font-family: var(--font-4);}
+
+
+.divUnderFooter{
+     background-color: var(--color5);   
+}
+
+.iconsMidias{ 
+    font-size: 30px;
+    margin: 5px;
+    color: #222222de;
+}
+
+.iconsMidias:hover{ opacity: 70%;}
 
 
 
