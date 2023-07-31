@@ -273,9 +273,13 @@ main{ background-color: var(--color5);}
 
 
 /*ASIDE*/
-
-aside{background-color: rgb(165, 111, 9)  }
-
+.divMaps h2{
+    font-family: var(--font-2);
+    color: rgb(199, 149, 56);
+    font-variant-caps: small-caps;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #2222226e;
+}
 
 
 
