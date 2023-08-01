@@ -20,7 +20,14 @@
     --color3:#BFA004;
     --color4:#D97904;
     --color5:#F2D7B6;
+
+
 }
+
+
+body{transition: all 500ms ease-in-out;}
+
+
 
 /*ICONS*/
 
@@ -30,25 +37,30 @@
     bottom: 0;
     left: 1%;
     cursor: pointer;
+
+    background-color: #222222;
 }
 .contactIcons:hover{opacity: 60%;}
 
+.badge{color: var(--color4); background-color: var(--color5); }
+
 .bi-cart{
-    color: #222;
     font-size: 30px;
     font-weight: 700;
+    color: var(--color4);
 }
 
-.bi-whatsapp{
+.linkWhats{
     position: fixed;
     z-index: 100;
     bottom: 0;
     right: 1%;
-    color: #067302;
     font-size: 35px;
     transition: all 300ms ease-in-out;
+    background-color: var(--color2);
+    color: var(--color5);
 }
-.bi-whatsapp:hover{opacity: 60%; font-size: 38px;}
+.linkWhats:hover{font-size: 40px;}
 
 
 
@@ -301,7 +313,6 @@ footer .filter{
     background-color: #222222e5;
 }
 
-
 .linkFooter{
     color: rgb(223, 174, 85);
     font-family: var(--font-3);
@@ -324,6 +335,8 @@ footer form span{ font-family: var(--font-4);}
 }
 
 .iconsMidias:hover{ opacity: 70%;}
+
+
 
 
 
