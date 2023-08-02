@@ -10,8 +10,8 @@ window.addEventListener('load', ()=>{
 
 //SCROOL EVENT
 function mouseOver(){
-    document.getElementById('navBar').classList.add('eventScrool')
+    document.getElementById('navBar').classList.add('eventShowHideNavbar')
 }
 function mouseOut(){
-    document.getElementById('navBar').classList.remove('eventScrool')
+    document.getElementById('navBar').classList.remove('eventShowHideNavbar')
 }

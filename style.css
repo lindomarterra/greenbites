@@ -81,15 +81,16 @@ header{
 }
 
 .navbar{
-    background-color: rgba(245, 222, 179, 0.527); 
-    transition: all 500ms ease-in-out;
+    display: none;
+    transition: all 500ms linear;
 }
 
-.eventScrool{
+.eventShowHideNavbar{
+    display: block;
     position: fixed; 
     width: 100vw; 
-    background-color:  rgba(245, 222, 179, 0.877); 
     z-index: 1000;
+    background-color: rgba(245, 222, 179, 0.527); 
 }
 
 .logo{  

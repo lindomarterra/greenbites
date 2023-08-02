@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+:root{
+ 
+    user-select: none;
+
+    --font-1: 'Bungee', cursive ;
+    --font-2: 'PT Sans Narrow', sans-serif; ;
+    --font-3: 'Bebas Neue', cursive;
+    --font-4: 'Anton', sans-serif;
+    --font-5: 'Rubik Moonrocks', cursive;
+
+    --color1:#D90416;
+    --color2:#067302; 
+    --color3:#BFA004;
+    --color4:#D97904;
+    --color5:#F2D7B6;
+
+
+}
+
+.card{
+    background-color: var(--color5);
+}
+.priceProduct{
+    font-family: var(--font-3);
+    text-shadow: 1px 1px 1px #2222222a;
+    font-size: 1.rem;
+    color: #222;
+}
+
+.bi-suit-heart{
+    font-size: 20px; 
+    line-height: 20px; 
+    cursor: pointer;
+    color: var(--color1);
+}
+
+.card-title{
+    font-family: var(--font-3);
+    text-shadow: 1px 1px 1px #2222222a;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.card-text{
+    font-family: var(--font-2);
+    color: #222222e1;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.card .btn{
+    background-color: var(--color1);
+    color: var(--color5);
+    font-weight: 700;
+    font-variant-caps: all-petite-caps;
+}
+.card .btn:hover{
+    background-color: var(--color2);
+    color: var(--color5);
+}
