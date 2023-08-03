@@ -81,17 +81,9 @@ header{
 }
 
 .navbar{
-    display: none;
-    transition: all 500ms linear;
+    background-color: rgba(245, 222, 179, 0.432);
 }
 
-.eventShowHideNavbar{
-    display: block;
-    position: fixed; 
-    width: 100vw; 
-    z-index: 1000;
-    background-color: rgba(245, 222, 179, 0.527); 
-}
 
 .logo{  
     width: 100px;

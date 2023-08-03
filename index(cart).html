@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="style-menu.css">
 
 
-    <title>Green Bites::Menu</title>
+    <title>Green Bites::Cart</title>
 
   </head>
   <body>   
@@ -37,8 +37,7 @@
         </a>
 
   
-    <header class="shadow-lg">
-
+    <header class="shadow-lg" style="min-height: 50vh;"  >
       <nav class="navbar navbar-expand-md shadow-lg" id="navBar">
         <div class="container">
 
@@ -82,123 +81,80 @@
 
         </div>
       </nav>
-
-          <h1 class="titleGreen"> THE </h1>
-          <h3 class="titleBites">MENU</h3>
-
     </header>
 
 
 
-    <main class="p1">
+   <main class="my-1 p-1"  style="height: 50vh;">
     
+    <div class="container divParentUlElement">
+      
+      <h2 class="my-4 text-center"> Shoppings Cart </h2>   
 
-      <section class="py-4">
+      <ul class="list-group">
 
-          <div class="container-md">
-            <div class="row g-2">
-
-
-
-        <!--BREADS-->
-
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                  
-                    <img src="img/dishes/bread01.png" class="card-img-top product-image">
-
-                  <div class="card-header">
-                    <spam class="product-price">$ 1,50</spam>
-                    <spam class="position-absolute end-0 p-1">
-                      <i class="bi-suit-heart"></i>
-                    </spam>
-                  </div>
-
-                  <div class="card-body">
-                    <p class="card-title product-title"> Bread One </p>
-                    <small class="card-text truncar-3l">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi!
-                    </small>
-                  </div>
-
-                  <div class="card-footer">
-                    <a class="btn btn-sm d-block shadow-lg"> Add to Cart </a>
-                  </div>
-                </div>
-              </div>
-               
+  
           
-            
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                  
-                    <img src="img/dishes/bread02.png" class="card-img-top product-image">
+            <li class="list-group-item py-3">
+              <div class="row g-3">
 
-                  <div class="card-header">
-                    <spam class="product-price">$ 2,50</spam>
-                    <spam class="position-absolute end-0 p-1">
-                      <i class="bi-suit-heart"></i>
-                    </spam>
+                  <div class="col-4 col-md-3 col-lg-2">
+                      <img src="img/dishes/bread01.png" class="img-fluid img-thumbnail">
                   </div>
 
-                  <div class="card-body">
-                    <p class="card-title product-title"> Bread Two </p>
-                    <small class="card-text truncar-3l">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi!
-                    </small>
+                  <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-start align-self-center">
+                      <h5 class="text-danger"> <b> Bread One </b> </h5>
+                      <small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, placeat. Eum, maiores? </small>
                   </div>
 
-                  <div class="card-footer">
-                    <a class="btn btn-sm d-block shadow-lg"> Add to Cart </a>
+                  <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                      <div class="input-group">
+
+                          <button class="btn btn-outline-dark btn-sm">
+                              <i class="bi-caret-down" style="font-size: 16px; line-height: 16px;"></i>
+                          </button>
+
+                        <input type="text" class="form-control text-center border-dark inputQtd" value="1" >
+
+                          <button class="btn btn-outline-dark btn-sm">
+                              <i class="bi-caret-up" style="font-size: 16px; line-height: 16px;" ></i>
+                          </button>
+
+                          <button class="btn btn-outline-danger border-dark btn-sm" title="click exactly on the trash can to remove" >
+                              <i class="bi-trash btnRemove" style="font-size: 16px; line-height: 16px;"></i>
+                          </button>
+                        </div>  
+                        
+                        <div class="text-end mt-2">
+                              <small class="text-secondary"> Price per kilo: $ 1,50</small><br>
+                              <span class="text-dark"> Price iten: $ <strong class="totalPrice"> 1,50 </strong> </span>
+                        </div>
                   </div>
-                </div>
-              </div>
-               
-              
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                  
-                    <img src="img/dishes/bread03.png" class="card-img-top product-image">
-
-                  <div class="card-header">
-                    <spam class="product-price">$ 3,50</spam>
-                    <spam class="position-absolute end-0 p-1">
-                      <i class="bi-suit-heart"></i>
-                    </spam>
-                  </div>
-
-                  <div class="card-body">
-                    <p class="card-title product-title"> Bread Three </p>
-                    <small class="card-text truncar-3l">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi!
-                    </small>
-                  </div>
-
-                  <div class="card-footer">
-                    <a class="btn btn-sm d-block shadow-lg"> Add to Cart </a>
-                  </div>
-                </div>
-              </div>
-               
+              </div> 
+         </li> 
+        
 
 
-
-
-
-            </div>
-          </div>
-
-
-
-
-           
+      </ul>
   
 
-      </section>
+    <h5 class="mb-5 divCartEmpty text-center"> Your Cart is Empty! </h5>
+
+            <!--TOTAL-->
+   <div class="text-end text-center mt-5 divTotalPayment">
+
+      <h6 class="text-dark mb-3"> Total Payment: $ <spam class="totalPayment"> 0,00 </spam> </h6>
+
+       <a href="index.html" class="btn btn-outline-success btn-sm btnBackMainPage" style="width: 110px;" > Main Page </a>
+
+       <a href="index(closingItems).html" class="btn btn-outline-danger btn-sm ms-2 mt-xs-3 btnCheckOut " style="width: 110px;" > Next </a>
+   </div>
+        
+
+   </div>
 
 
-    </main>  
-  
+   </main>
 
  
    <footer>

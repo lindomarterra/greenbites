@@ -8,10 +8,30 @@ window.addEventListener('load', ()=>{
 
 
 
-//SCROOL EVENT
-function mouseOver(){
-    document.getElementById('navBar').classList.add('eventShowHideNavbar')
+
+
+
+
+
+//CART
+//ADDING PRODUCT
+const btn=document.getElementsByClassName('btn')
+for(let i=0; i< btn.length; i++){
+    btn[i].addEventListener('click', addingProductToCart)    
 }
-function mouseOut(){
-    document.getElementById('navBar').classList.remove('eventShowHideNavbar')
+
+
+function addingProductToCart(event){
+
+    const button = event.target
+    const productInfos = button.parentElement.parentElement
+    const productImage = productInfos.getElementsByClassName("product-image")[0].src
+    const productTitle = productInfos.getElementsByClassName("product-title")[0].innerText
+    const productPrice = productInfos.getElementsByClassName("product-price")[0].innerText
+
+    console.log(productTitle)
 }
+
+
+
+
