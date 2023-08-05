@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,93 +24,15 @@
 
   <body>   
 
-    <!--OFFCANVAS-->
-
-    <div class="offcanvas offcanvas-start"  id="offcanvasCart" >
-      
-      <div class="offcanvas-header">
-        <h3 class="offcanvas-title">Shop Cart</h3>
-        <button type="button" class="btn-close border border-dark rounded-5" data-bs-dismiss="offcanvas" ></button>
-      </div>
-
-
-      <div class="offcanvas-body text-center" >
-
-          <h5 class="cartEmpty">Your Cart is Empty!</h5>
-        
-             <!--PRODUCT 1 -->
-
-            <div class="productItem" >
-              <div class="row">
-
-                <div class="col-6">
-                  <img src="img/dishes/bread01.png" class="img-fluid productImage" alt="imgBread">
-                </div>
-
-                <div class="col-6">
-                  <h6 class="productTitle text-center"> Bread One  </h6>    
-                  <spam class="text-center"> Total Item: <b>$ 1,50</b> </spam>
-                    <input type="number" class="qtd mt-2 border border-dark rounded-1 p-1  " value="1" max="10" min="1" 
-                    style="width: 50px; ">
-                    <i class="btnRemove bi-trash-fill text-white bg-danger p-2 ms-1 rounded-1" 
-                    style="cursor: pointer;"></i>
-                </div>
-
-              </div>       
-              <hr>              
-           </div>          
-  
-      </div>   
-
+     
     
-     <div class="offcanvas-bottom p-2 text-center">
-
-      <div class="p-2 my-2 text-center text-md-end">
-        <div class="subtotalDiv">
-          <spam class="subTotalName">Subtotal:</spam>
-          <spam class="subtotalValue">$0,00</spam>
-        </div>
-        <div class="deriveryDiv">
-          <spam class="deliveryName">Delivery:</spam>
-          <spam class="deliveryValue">$0,00</spam>
-        </div>
-        <div class="taxDiv">
-          <spam class="taxName">Tax:</spam>
-          <spam class="taxValue">$0,00</spam>
-        </div>
-        <hr class="">
-        <div class="totalDiv">
-          <spam class="totalName">Total:</spam>
-          <spam class="totalValue">$0,00</spam>
-        </div>
-      </div>
-
-       <a href="index(info).html" target="_self" class="btn btn-success" style="width: 100px;"> Next </a>
-       <a href="index(menu).html" target="_self" class="btn btn-primary" style="width: 100px;"> Menu </a>
-     </div>
-
-    </div>
-
-
-    
-
-    
-        <!--CONTACT-ICONS-->
-            <div class="contactIcons rounded-5 p-1" >         
-              <span class="badge rounded-pill position-absolute ms-4 mt-1"title="My Shops!">
-          <small>5</small>  </span>
-              <a href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" >
-                <i class="bi-cart m-2" ></i>
-              </a>
-            </div>
+        <!--WHATSAPP-->
+            
     
             <a  href="https://web.whatsapp.com/send?phone=5551998068587" target="_blank" 
             class="text-decoration-none linkWhats rounded-5 p-1">
               <i class="bi-whatsapp m-2"></i>
             </a>
-    
-      
-    
     
 
 
@@ -168,94 +90,130 @@
 
 
 
-    <main class="p1">
+    <main>
     
+     <div class="container-md p-2 p-md-5">
+        <div class="row g-2">
 
-        <!--BREADS-->
-      <section class="py-4">
 
-          <div class="container-md">
-            <div class="row g-2">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
 
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                  
-                    <img src="img/dishes/bread01.png" class="card-img-top product-image">
+              <img src="img/dishes/bread01.png" class="card-img-top" alt="imgBread">
 
-                  <div class="card-header">
-                    <spam class="product-price">$ 1,50</spam>
-                    <spam class="position-absolute end-0 p-1">
-                      <i class="bi-suit-heart"></i>
-                    </spam>
-                  </div>
-
-                  <div class="card-body">
-                    <p class="card-title product-title"> Bread One </p>
-                    <small class="card-text truncar-3l">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi!
-                    </small>
-                  </div>
-
-                  <div class="card-footer">
-                    <a class="btn btn-sm d-block shadow-lg"> Add to Cart </a>
-                  </div>
-                </div>
-              </div>    
-                      
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                  
-                    <img src="img/dishes/bread02.png" class="card-img-top product-image">
-
-                  <div class="card-header">
-                    <spam class="product-price">$ 2,50</spam>
-                    <spam class="position-absolute end-0 p-1">
-                      <i class="bi-suit-heart"></i>
-                    </spam>
-                  </div>
-
-                  <div class="card-body">
-                    <p class="card-title product-title"> Bread Two </p>
-                    <small class="card-text truncar-3l">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi!
-                    </small>
-                  </div>
-
-                  <div class="card-footer">
-                    <a class="btn btn-sm d-block shadow-lg"> Add to Cart </a>
-                  </div>
-                </div>
+              <div class="card-body position-relative">
+                <h5 class="card-title text-center"> Bread One </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint asperiores provident.
+                </p>
+                <span class="price">$1,50</span>
               </div>
               
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                  
-                    <img src="img/dishes/bread03.png" class="card-img-top product-image">
-
-                  <div class="card-header">
-                    <spam class="product-price">$ 3,50</spam>
-                    <spam class="position-absolute end-0 p-1">
-                      <i class="bi-suit-heart"></i>
-                    </spam>
-                  </div>
-
-                  <div class="card-body">
-                    <p class="card-title product-title"> Bread Three </p>
-                    <small class="card-text truncar-3l">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi!
-                    </small>
-                  </div>
-
-                  <div class="card-footer">
-                    <a class="btn btn-sm d-block shadow-lg"> Add to Cart </a>
-                  </div>
-                </div>
-              </div>              
-
+              <div class="card-footer">
+                <a href="index(order).html" target="_self" class="btn btn-sm btn-success d-block w-100 px-5"> BUY </a>
+              </div>
             </div>
           </div>
 
-      </section>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+
+              <img src="img/dishes/bread02.png" class="card-img-top" alt="imgBread">
+
+              <div class="card-body position-relative">
+                <h5 class="card-title text-center"> Bread Two </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint asperiores provident.
+                </p>
+                <span class="price">$2,50</span>
+              </div>
+              
+              <div class="card-footer">
+                <a href="index(order).html" target="_self" class="btn btn-sm btn-success d-block w-100 px-5"> BUY </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+
+              <img src="img/dishes/bread03.png" class="card-img-top" alt="imgBread">
+
+              <div class="card-body position-relative">
+                <h5 class="card-title text-center"> Bread Three </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint asperiores provident.
+                </p>
+                <span class="price">$3,50</span>
+              </div>
+              
+              <div class="card-footer">
+                <a href="index(order).html" target="_self" class="btn btn-sm btn-success d-block w-100 px-5"> BUY </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+
+              <img src="img/dishes/bread04.png" class="card-img-top" alt="imgBread">
+
+              <div class="card-body position-relative">
+                <h5 class="card-title text-center"> Bread Four </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint asperiores provident.
+                </p>
+                <span class="price">$4,50</span>
+              </div>
+              
+              <div class="card-footer">
+                <a href="index(order).html" target="_self" class="btn btn-sm btn-success d-block w-100 px-5"> BUY </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+
+              <img src="img/dishes/bread05.png" class="card-img-top" alt="imgBread">
+
+              <div class="card-body position-relative">
+                <h5 class="card-title text-center"> Bread Five </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint asperiores provident.
+                </p>
+                <span class="price">$5,50</span>
+              </div>
+              
+              <div class="card-footer">
+                <a href="index(order).html" target="_self" class="btn btn-sm btn-success d-block w-100 px-5"> BUY </a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+
+              <img src="img/dishes/bread06.png" class="card-img-top" alt="imgBread">
+
+              <div class="card-body position-relative">
+                <h5 class="card-title text-center"> Bread Six </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint asperiores provident.
+                </p>
+                <span class="price">$6,50</span>
+              </div>
+              
+              <div class="card-footer">
+                <a href="index(order).html" target="_self" class="btn btn-sm btn-success d-block w-100 px-5"> BUY </a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+     </div>
 
       
     

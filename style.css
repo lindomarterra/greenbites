@@ -342,20 +342,7 @@ footer form span{ font-family: var(--font-4);}
 /* PAGE MENU*/
 
 .card{
-    background-color: var(--color5);
-}
-.priceProduct{
-    font-family: var(--font-3);
-    text-shadow: 1px 1px 1px #2222222a;
-    font-size: 1.rem;
-    color: #222;
-}
-
-.bi-suit-heart{
-    font-size: 20px; 
-    line-height: 20px; 
-    cursor: pointer;
-    color: var(--color1);
+    background-color: rgba(15, 63, 15, 0.171);
 }
 
 .card-title{
@@ -371,16 +358,25 @@ footer form span{ font-family: var(--font-4);}
     font-size: 0.8rem;
     font-style: italic;
 }
-
-.card .btn{
+.price{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    color: var(--color5);
     background-color: var(--color1);
-    color: var(--color5);
+    font-family: var(--font-3);
+    padding: 10px;
     font-weight: 700;
-    font-variant-caps: all-petite-caps;
+    text-shadow: 1px 1px 1px #22222270;
+    border-radius: 50%;
 }
-.card .btn:hover{
-    background-color: var(--color2);
-    color: var(--color5);
+
+
+.card-footer a{
+    font-family: var(--font-5);
+    text-shadow: 1px 1px 1px #222;
+    box-shadow: 2px 2px 2px #222;
+
 }
 
 
