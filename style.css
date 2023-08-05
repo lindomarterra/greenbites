@@ -31,29 +31,11 @@ body{transition: all 500ms ease-in-out;}
 
 /*ICONS*/
 
-.contactIcons{
-    position: fixed;
-    z-index: 1000;
-    bottom: 0;
-    left: 1%;
-    cursor: pointer;
-    background-color: #222222;
-}
-.contactIcons:hover{opacity: 60%;}
-
-.badge{color: var(--color4); background-color: var(--color5); }
-
-.bi-cart{
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--color4);
-}
-
 .linkWhats{
     position: fixed;
     z-index: 100;
     bottom: 0;
-    right: 1%;
+    left: 1%;
     font-size: 30px;
     transition: all 300ms ease-in-out;
     background-color: var(--color2);
@@ -347,7 +329,7 @@ footer form span{ font-family: var(--font-4);}
 
 .card-title{
     font-family: var(--font-3);
-    text-shadow: 1px 1px 1px #2222222a;
+    text-shadow: 1px 1px 1px #22222270;
     font-size: 1.5rem;
     color: #222;
 }
