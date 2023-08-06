@@ -154,38 +154,17 @@ main{ background-color: var(--color5);}
 
 
 
-
-
-.titleDiscoveryMenu{
-    font-family: var(--font-4);
-    font-variant-caps: all-petite-caps;
-    color: var(--color4);
-    text-shadow: 1px 1px 1px #222;
-    font-size: 3.5rem;
-}
-
-
-
-.hover{
+.linkInPhoto{
     text-decoration: none;
-    border: none;
-    color: rgba(0, 128, 0, 0.753);
-    font-size: 2rem;
-    font-family: var(--font-4);
-    font-variant-caps: all-petite-caps;
-    transition: all 300ms ease-in-out;
+    color: #fff;
+    font-family: var(--font-1);
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px #2222227a;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 500ms linear;
 }
-.hover:hover{ text-decoration: underline;}
-
-.imgHover img{
-     transition: all 500ms ease-in-out;  
-     border: 1px solid #22222227; 
-}
-
-.imgHover:hover{opacity: 60%;}
-
-
-
+.linkInPhoto:hover{border: 4px solid #fff;}
 
 
 
@@ -195,13 +174,13 @@ main{ background-color: var(--color5);}
     font-family: var(--font-4);
     font-variant-caps: all-petite-caps;
     font-size: 3.5rem;
-    color: var(--color4);
+    color: #573306ce;
     text-shadow: 1px 1px 1px #222;
 }
 
 .txtOrganicAndLocal{
     font-family: var(--font-4);
-    color: var(--color4);
+    color: #d9790477;
     font-size: 1.2rem;
 }
 
@@ -210,21 +189,19 @@ main{ background-color: var(--color5);}
 
 
 .btnOurMenu{
+    display: block;
     text-decoration: none;
-    font-family: var(--font-1);
-    font-size: 2.5rem;
-    color: var(--color5);
-    background-color: var(--color2);
+    font-family: var(--font-3);
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(20, 192, 20, 0.733);
+    background-image: linear-gradient( to right, rgba(255, 166, 0, 0.137), rgba(255, 166, 0, 0.096), transparent);
+    border-radius: 4px;
     text-shadow: 1px 1px 1px #222;
-    box-shadow: 2px 2px 2px #222;
     transition: all 500ms ease-in-out;
 }
 
-    .btnOurMenu:hover{
-        background-color: var(--color3);
-        color: var(--color2);
-    }
-    
+      
 
 .card-img-overlay{
     background-color: #222222cc ;
