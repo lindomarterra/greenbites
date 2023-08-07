@@ -29,7 +29,7 @@ body{transition: all 500ms ease-in-out;}
 
 
 
-/*ICONS*/
+/*HOME*/
 
 .linkWhats{
     position: fixed;
@@ -42,15 +42,6 @@ body{transition: all 500ms ease-in-out;}
     color: var(--color5);
 }
 .linkWhats:hover{font-size: 35px;}
-
-
-
-
-
-
-
-
-/*HEADER*/
 
 header{
     background-image: url(img/dishes/verticalRizzoto.png);
@@ -65,16 +56,11 @@ header{
     background-color: rgba(245, 222, 179, 0.432);
 }
 
-
 .logo{  
     width: 100px;
     transition: all 0.5s ease-in-out;
 }
 .logo:hover{opacity: 60%;}
-
-
-
-
 
 
 .dropdown-menu{
@@ -100,14 +86,8 @@ header{
 
 .subMenuLink:hover{text-decoration: underline;}
 
-
-
-
-
-
 .nav-link{font-weight: 700; color: var(--color2); }
 .nav-link:hover{text-decoration: underline;}
-
 
 .titleGreen{
     position: absolute;
@@ -117,8 +97,8 @@ header{
     color: var(--color2);
     font-size: 4.5rem;
     text-shadow: 1px 1px 1px #222222c0;
-    
 }
+
 .titleBites{
     position: absolute;
     bottom: 10%;
@@ -129,7 +109,6 @@ header{
     font-style: italic;
     text-shadow: 1px 1px 1px #222222c0;
 }
-
 
 .animationSlideDownOnBites{ animation: slideDownBites  2s; }
 .animationSlideDownOnGreen{ animation: slideDownGreen 1s;}
@@ -144,17 +123,6 @@ header{
     to{line-height: 20px; opacity: 1;} 
 }
 
-
-
-
-
-
-
-
-
-
-
-/*MAIN*/
 
 main{ background-color: var(--color5);}
 
@@ -185,8 +153,6 @@ main{ background-color: var(--color5);}
     font-family: var(--font-3);
 }
 
-
-
 .linkInPhoto{
     text-decoration: none;
     color: #fff;
@@ -199,7 +165,6 @@ main{ background-color: var(--color5);}
 }
 .linkInPhoto:hover{border: 4px solid #fff;}
 
-
 .variety{
     text-decoration: none;
     font-family: var(--font-4);
@@ -210,7 +175,6 @@ main{ background-color: var(--color5);}
     text-shadow: 1px 1px 1px #2222221f;
     font-style: italic;
 }
-
 
 .divOrganicAndLocal{
     background-image: linear-gradient(to top, rgba(0, 128, 0, 0.342), rgba(0, 128, 0, 0.158), rgba(0, 128, 0, 0.349) );
@@ -229,43 +193,9 @@ main{ background-color: var(--color5);}
     font-family: var(--font-4);
     color: #d9790477;
     font-size: 1.2rem;
-}
-
-      
-
-.card-img-overlay{
-    background-color: #222222cc ;
-    overflow: auto;
-
-}
-.card-text{
-    font-family: var(--font-2);
-    color: rgb(223, 174, 85);
-    font-size: 1.2rem;
-}
-.card-text b::before{ content: "\00A0\1F517";}
-
-.card-text a{
-    text-decoration: none;
-    font-family: var(--font-3);
-    color: var(--color5);
-    font-size: 1.2rem;
-}
-.card-text a:hover{text-decoration: underline;}
-
-.card-text strong{
-    color: #ffffffb7;
-    font-variant-caps: all-petite-caps;
-    font-size: 1.3rem;
-}
-
-.bannerHide{display: none;}
+}    
 
 
-
-
-
-/*ASIDE*/
 .divMaps h2{
     font-family: var(--font-2);
     color: rgb(199, 149, 56);
@@ -273,15 +203,6 @@ main{ background-color: var(--color5);}
     font-weight: 700;
     text-shadow: 1px 1px 1px #2222226e;
 }
-
-
-
-
-
-
-
-
-/*FOOTER*/
 
 footer{
     background-image: url(img/others/backgroundFooter.png);
@@ -319,7 +240,6 @@ footer form span{ font-family: var(--font-4);}
 
 
 
-/* END PAGE HOME */
 
 
 
@@ -337,11 +257,16 @@ footer form span{ font-family: var(--font-4);}
 
 
 
-/* PAGE MENU*/
 
+/* PAGE MENU-DISHES*/
 
-/*HEADER */
-
+.backgroundSmall{
+    background-image: url(img/dishes/pasta05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 2px #222;
+}
 
 .cartLinkOrder{
     position: fixed;
@@ -365,7 +290,6 @@ footer form span{ font-family: var(--font-4);}
     font-size: 3rem;
     text-shadow: 1px 1px 1px #2222227c;
 }
-
 
 .card{
     background-color: rgba(15, 63, 15, 0.171);
@@ -400,13 +324,44 @@ footer form span{ font-family: var(--font-4);}
 
 
 
-/*MENU DISHES*/
 
-.backgroundSmall{
-    background-image: url(img/dishes/pasta05.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 2px #222;
+
+
+
+
+
+
+
+/*PAGE ABOUT*/
+
+
+.partnerTitle{
+    background-color: rgba(77, 39, 25, 0.596);
+    color: rgb(12, 207, 142);
+    font-family: var(--font-3);
+    box-shadow: 2px 2px 2px #222222ad;
 }
+
+.partnerText{
+    background-image: linear-gradient(to top,rgba(214, 151, 34, 0.205), rgba(224, 148, 26, 0.199), rgba(214, 146, 19, 0.178) );
+    font-family: var(--font-2);
+    color: #222222c2;
+    font-size: 1rem;
+}
+.partnerText b::before{ content: "\00A0\1F517";}
+
+.partnerText a{
+    text-decoration: none;
+    font-family: var(--font-3);
+    color: rgba(15, 128, 128, 0.753);
+    font-size: 1.2rem;
+}
+.partnerText a:hover{text-decoration: underline;}
+
+.partnerText strong{
+    color: cornflowerblue;
+    font-variant-caps: all-petite-caps;
+    font-size: 1.3rem;
+}
+
 
