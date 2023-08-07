@@ -337,7 +337,7 @@ footer form span{ font-family: var(--font-4);}
 
 .partnerTitle{
     background-color: rgba(77, 39, 25, 0.596);
-    color: rgb(12, 207, 142);
+    color: var(--color5);
     font-family: var(--font-3);
     box-shadow: 2px 2px 2px #222222ad;
 }
