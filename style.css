@@ -34,7 +34,7 @@ body{transition: all 500ms ease-in-out;}
 .linkWhats{
     position: fixed;
     z-index: 100;
-    bottom: 0;
+    bottom: 1%;
     left: 1%;
     font-size: 30px;
     transition: all 300ms ease-in-out;
@@ -72,8 +72,41 @@ header{
 }
 .logo:hover{opacity: 60%;}
 
-.nav-link{font-weight: 700; color: var(--color2); }
 
+
+
+
+
+.dropdown-menu{
+    background-color: #ffffffbb;
+}
+
+.dropdown-toggle{
+    color: transparent;
+}
+
+.dropdown-toggle b{ 
+    color: var(--color2);
+    text-shadow: 1px 1px 1px #2222229a;
+    font-size: 1.5rem;
+}
+
+.subMenuLink{
+    color: var(--color2);
+    text-shadow: 1px 1px 1px #22222236;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.subMenuLink:hover{text-decoration: underline;}
+
+
+
+
+
+
+.nav-link{font-weight: 700; color: var(--color2); }
+.nav-link:hover{text-decoration: underline;}
 
 
 .titleGreen{
@@ -367,5 +400,13 @@ footer form span{ font-family: var(--font-4);}
 
 
 
+/*MENU DISHES*/
 
+.backgroundSmall{
+    background-image: url(img/dishes/pasta05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 2px #222;
+}
 
