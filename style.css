@@ -365,3 +365,46 @@ footer form span{ font-family: var(--font-4);}
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*PAGE CONTACT*/
+
+
+.divContact{
+    color: #222222cb;
+    text-shadow: 1px 1px 1px #22222241;
+    border-left: 10px solid #222222cb;
+}
+
+.titleContact{
+    font-family: var(--font-4);
+}
+.txtdivContact{
+    font-family: var(--font-4);
+}
+
+
+.divFormAndAddress form{
+    font-family: var(--font-4);
+    color: #222222a9;
+}
+
+
+
+.listContact{
+
+}
+
+.iconsContact{
+    font-size: 30px;
+    
+}
