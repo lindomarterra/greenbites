@@ -386,8 +386,7 @@ footer form span{ font-family: var(--font-4);}
 
 
 .divContact{
-    color: #222222cb;
-    text-shadow: 1px 1px 1px #22222241;
+    color: #222222c4;
     border-left: 10px solid #222222cb;
 }
 
@@ -418,20 +417,24 @@ footer form span{ font-family: var(--font-4);}
 
 /*PAGE RESERVATION*/
 
-.restoName a{
+.restoImage{
+    border-radius: 50%;
+}
+
+.generalTitle{
     text-decoration: none;
     font-family: var(--font-4);
     color: rgba(165, 111, 64, 0.925);
     text-shadow: 1px 1px 1px #22222242;
-    transition: all .7s linear;
 }
 
-.restoName a:hover{ text-decoration: underline;}
-
-
-.linkDelivery{
-    text-decoration: none;
-    padding: 10px;
-    border: 5px solid #222 ;
-    border-radius: 50%;
+.linksBookings a{
+    text-decoration: none;   
+    color: #222222dc;
 }
+
+.linksBookings a:hover{ opacity: 50%; }
+
+
+
+
