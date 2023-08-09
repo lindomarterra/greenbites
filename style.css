@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 :root{
  
     user-select: none;
@@ -14,6 +15,8 @@
     --font-3: 'Bebas Neue', cursive;
     --font-4: 'Anton', sans-serif;
     --font-5: 'Rubik Moonrocks', cursive;
+    --font-6: 'Luckiest Guy', cursive;
+
 
     --color1:#D90416;
     --color2:#067302; 
@@ -93,7 +96,7 @@ header{
     position: absolute;
     bottom: 14%;
     right: 17%;
-    font-family: var(--font-5);
+    font-family: var(--font-6);
     color: var(--color2);
     font-size: 4.5rem;
     text-shadow: 1px 1px 1px #222222c0;
@@ -101,7 +104,7 @@ header{
 
 .titleBites{
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     right: 20%;
     font-family: var(--font-4);
     color: var(--color1);
@@ -177,7 +180,7 @@ main{ background-color: var(--color5);}
 }
 
 .divOrganicAndLocal{
-    background-image: linear-gradient(to top, rgba(0, 128, 0, 0.342), rgba(0, 128, 0, 0.158), rgba(0, 128, 0, 0.349) );
+    background-color: rgba(245, 245, 245, 0.336)   ;
     box-shadow: 2px 2px 2px #2222229c;
 }
 
@@ -185,13 +188,13 @@ main{ background-color: var(--color5);}
     font-family: var(--font-4);
     font-variant-caps: all-petite-caps;
     font-size: 3.5rem;
-    color: #573306ce;
-    text-shadow: 1px 1px 1px #222;
+    color: rgb(199, 149, 56);
+    text-shadow: 1px 1px 1px #222222a6;
 }
 
 .txtOrganicAndLocal{
     font-family: var(--font-4);
-    color: #d9790477;
+    color: rgba(199, 149, 56, 0.671);
     font-size: 1.2rem;
 }    
 
@@ -270,12 +273,15 @@ footer form span{ font-family: var(--font-4);}
 
 .cartLinkOrder{
     position: fixed;
-    left: 1%;
-    bottom: 10%;
+    right: 1%;
+    bottom: 1%;
     z-index: 1000;
     font-size: 30px;
     background-color: rgba(173, 22, 22, 0.788);
+    transition: all 0.3s linear;
 }
+
+.cartLinkOrder:hover{font-size: 35px;}
 
 .pulseAnime{ animation:  pulse 1s infinite  ;  }
 
@@ -398,13 +404,34 @@ footer form span{ font-family: var(--font-4);}
     color: #222222a9;
 }
 
-
-
-.listContact{
-
-}
-
 .iconsContact{
     font-size: 30px;
-    
+}
+
+
+
+
+
+
+
+
+
+/*PAGE RESERVATION*/
+
+.restoName a{
+    text-decoration: none;
+    font-family: var(--font-4);
+    color: rgba(165, 111, 64, 0.925);
+    text-shadow: 1px 1px 1px #22222242;
+    transition: all .7s linear;
+}
+
+.restoName a:hover{ text-decoration: underline;}
+
+
+.linkDelivery{
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid #222 ;
+    border-radius: 50%;
 }
