@@ -10,6 +10,18 @@ window.addEventListener('load', ()=>{
 
 
 
+function underlineEffect(){
+    const addUnderline=document.getElementById('underlineSelected')
+    addUnderline.style.cssText= 'color:#222; text-decoration: underline 1px green '
+
+}
+
+
+
+
+
+
+
 
 
 

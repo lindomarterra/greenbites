@@ -264,8 +264,8 @@ footer form span{ font-family: var(--font-4);}
 /* PAGE MENU-DISHES*/
 
 .backgroundSmall{
-    background-image: url(img/dishes/pasta05.png);
-    background-position: center;
+    background-image: url(img/dishes/snack01.png);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 2px #222;
@@ -419,7 +419,16 @@ footer form span{ font-family: var(--font-4);}
 
 .restoImage{
     border-radius: 50%;
+    transition: all 1s linear;
+    cursor: pointer;
 }
+
+.restoImage:hover{
+    transform: scale(1.1);
+    
+}
+
+
 
 .generalTitle{
     text-decoration: none;
@@ -434,6 +443,31 @@ footer form span{ font-family: var(--font-4);}
 }
 
 .linksBookings a:hover{ opacity: 50%; }
+
+
+
+
+
+
+
+
+
+
+/*PAGE ORDER*/
+
+.txtDeliOperation{
+    font-family: var(--font-4);
+    color: #222222d5;
+}
+
+
+
+
+
+
+
+
+
 
 
 
