@@ -143,7 +143,7 @@
         </div>
       </nav>
 
-          <h1 class="titleGreen"> GREEN </h1>
+          <h2 class="titleGreen"> GREEN </h2>
           <h3 class="titleBites">BITES</h3>
 
     </header>
@@ -159,7 +159,7 @@
           <div class="row g-2">
 
             <div class="col-lg-6 divInfo p-3 p-md-5 ">
-              <h1 class="text-start ps-1 rounded-2 mt-2"><span class="terra">About</span> Green Bites </h1>
+              <h1 class="text-start ps-1 rounded-2 mt-2"><span class="terra">Intro:</span> Green Bites </h1>
               <h6 class="text-start lh-lg pt-2">
                 Welcome to our <b>vegan</b> restaurant, where <b>plant-based</b> cuisine meets exquisite taste. Our menu features <b>locally sourced</b>, seasonal ingredients that are transformed into mouth-watering dishes that are both healthy and sustainable. Our knowledgeable and friendly staff are committed to providing you with an exceptional dining experience that caters to all <b>dietary</b> needs. Whether you are a lifelong vegan or just looking to try something new, we have something for everyone. Come and indulge in our delicious vegan cuisine and let us<b> nourish</b> your body and <b>soul</b>.
               </h6>
@@ -176,41 +176,43 @@
 
 
     <!--BANNER-SLIDE-->
-     <div class="mt-4 bg-dark py-5 shadow-lg ">
-      <div class="carousel slide carousel-dark"  data-bs-ride="carousel"    >
+     <div class="mt-4 bg-dark py-5 shadow-lg">
+      <div class="carousel slide carousel-dark carousel-fade"  data-bs-ride="carousel"    >
 
        
        <div class="carousel-inner">
 
          <div class="carousel-item active" interval="1000" >
-          <img src="img/dishes/pasta(1200x400).png" class="d-block w-100 img-fluid" alt="img" >
+          
+            <div class=" text-center">
+            <img src="img/dishes/brunch01.png" class="w-25 img-fluid" >
+            <img src="img/dishes/brunch02.png" class="w-25 img-fluid" >
+            <img src="img/dishes/brunch03.png" class="w-25 img-fluid" >
+            </div>
+
          </div>
 
-         <div class="carousel-item active" interval="1000" >
-          <img src="img/dishes/bread(1200x400).png" class="d-block w-100 img-fluid" alt="img">
-         </div>
+         <div class="carousel-item " interval="1000" >
+          
+          <div class=" text-center">
+          <img src="img/dishes/brunch02.png" class="w-25 img-fluid" >
+          <img src="img/dishes/brunch03.png" class="w-25 img-fluid" >
+          <img src="img/dishes/brunch04.png" class="w-25 img-fluid" >
+          </div>
 
-         <div class="carousel-item active" interval="1000" >
-          <img src="img/dishes/brunch(1200x400).png" class="d-block w-100 img-fluid" alt="img" >
-         </div>
+       </div>
 
-         <div class="carousel-item active" interval="1000" >
-          <img src="img/dishes/dessert(1200x400).png" class="d-block w-100 img-fluid" alt="img" >
-         </div>
-       
-         <div class="carousel-item active" interval="1000" >
-          <img src="img/dishes/snack(1200x400).png" class="d-block w-100 img-fluid" alt="img" >
-         </div>
+      
+         <!-- 
+            <img src="img/dishes/pasta(1200x400).png" class="d-none d-md-block w-100 img-fluid" alt="img" >
+            <img src="img/dishes/brunch01.png" class="d-block d-md-none w-100 img-fluid" alt="img" >
+         -->
+
+
 
       </div>
 
-       <button class="carousel-control-prev" type="button" data-bs-target=".carousel" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon"></span>
-       </button>
-       <button class="carousel-control-next" type="button" data-bs-target=".carousel" data-bs-slide="next">
-         <span class="carousel-control-next-icon"></span>
-       </button>
-      
+          
 
      </div>
     </div>
@@ -342,7 +344,7 @@
    </main>
 
  
-   <footer>
+   <footer  onload="footerEffect()"  class="footerAnimation"  >
     <div class="filter p-5">
 
       <div class="container-md">
@@ -401,7 +403,7 @@
                 <ul class="list-unstyled">
                   <li><a class="text-decoration-none linkFooter" href="index.html" target="_self"> Home </a></li>
                   <li><a class="text-decoration-none linkFooter" href="index(contact).html" target="_self"> Contact </a></li>
-                  <li><a class="text-decoration-none linkFooter" href="index(orders).html" target="_self"> Orders </a></li>
+                  <li><a class="text-decoration-none linkFooter" href="index(order).html" target="_self"> Orders </a></li>
                   <li><a class="text-decoration-none linkFooter" href="index(about).html" target="_self"> About </a></li>
                   <li><a class="text-decoration-none linkFooter" href="index(termsofuse).html" target="_self">Termos</a></li>
                   <li><a class="text-decoration-none linkFooter" href="index(privacypolicy).html" target="_self">Privacy Policy </a></li>
