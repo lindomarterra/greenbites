@@ -280,14 +280,11 @@ footer form span{ font-family: var(--font-4);}
 
 
 
-/* PAGE MENU-DISHES*/
+/* PAGE MENU-PRODUCTS*/
 
 .backgroundSmall{
-    background-image: url(img/dishes/snack01.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 2px #222;
+    background-color: tan;
+    box-shadow: 2px 2px 2px #222222a1;
 }
 
 .cartLinkOrder{
@@ -309,42 +306,18 @@ footer form span{ font-family: var(--font-4);}
     to{  opacity: 1;  }
 }
 
-.titleMenu{
-    font-family: var(--font-5);
-    color: var(--color2);
-    font-size: 3rem;
-    text-shadow: 1px 1px 1px #2222227c;
+.imgProductHide{display: none;}
+
+.bi-camera{
+    cursor: pointer;
+    font-size: 30px;
 }
 
-.card{
-    background-color: rgba(15, 63, 15, 0.171);
-}
 
-.card-title{
-    font-family: var(--font-3);
-    text-shadow: 1px 1px 1px #22222270;
-    font-size: 1.5rem;
-    color: #222;
-}
 
-.card-text{
-    font-family: var(--font-2);
-    color: #222222e1;
-    font-size: 1rem;
-    font-style: italic;
-}
-.price{
-    position: absolute;
-    right: 1%;
-    bottom: 1%;
-    color: var(--color5);
-    font-family: var(--font-3);
-    padding: 8px;
-    font-weight: 700;
-    text-shadow: 1px 1px 1px #22222270;
-    border-radius: 50%;
-    font-size: 1rem;
-}
+
+
+
 
 
 

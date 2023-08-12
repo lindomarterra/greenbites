@@ -21,6 +21,25 @@ function underlineEffect(){
 
 
 
+const iconCamera=document.getElementsByClassName('bi-camera')
+
+for(let i=0;i<iconCamera.length;i++){
+
+    iconCamera[i].addEventListener('click', ()=>{
+
+        const imgEachProduct= iconCamera[i].getElementById('imgProd')[0]
+        imgEachProduct.classList.remove('imgProductHide')
+
+    })
+}
+
+
+    
+    
+    
+
+
+
 
 
 
