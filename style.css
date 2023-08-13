@@ -72,7 +72,7 @@ header{
 
 
 .dropdown-menu{
-    background-color: #ffffffbb;
+    background-color: #222222da;
 }
 
 .dropdown-toggle{
@@ -86,7 +86,8 @@ header{
 }
 
 .subMenuLink{
-    color: var(--color2);
+    color: var(--color5);
+    background-color:;
     text-shadow: 1px 1px 1px #22222236;
     font-size: 1.1rem;
     text-decoration: none;
@@ -449,8 +450,6 @@ footer form span{ font-family: var(--font-4);}
     
 }
 
-
-
 .generalTitle{
     text-decoration: none;
     font-family: var(--font-4);
@@ -464,6 +463,15 @@ footer form span{ font-family: var(--font-4);}
 }
 
 .linksBookings a:hover{ opacity: 50%; }
+
+
+
+
+
+
+
+
+
 
 
 

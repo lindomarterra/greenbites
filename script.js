@@ -15,6 +15,7 @@ function underlineEffect(){
 }
 
 
+// SHOW AND HIDE IMAGE OF PRODUCT
 const iconCamera=document.getElementsByClassName('bi-camera')
 for(let i=0;i<iconCamera.length;i++){
     iconCamera[i].addEventListener('mouseover', showImg)
@@ -40,8 +41,7 @@ function hideImg(item){
 
 
 
-    
-    
+  
     
 
 
