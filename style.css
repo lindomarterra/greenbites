@@ -284,7 +284,7 @@ footer form span{ font-family: var(--font-4);}
 
 .backgroundSmall{
     background-color: tan;
-    box-shadow: 2px 2px 2px #222222a1;
+    box-shadow: 2px 2px 2px #222222ce;
 }
 
 .cartLinkOrder{
@@ -306,21 +306,50 @@ footer form span{ font-family: var(--font-4);}
     to{  opacity: 1;  }
 }
 
+.menuTitle{
+    font-family: var(--font-7);
+    text-shadow: 1px 1px 1px #222222;
+    color: #067302;
+}
+
+.prodName{
+    font-family: var(--font-4);
+    color: #222222d8;
+}
+
+.prodTxt{
+    font-family: var(--font-2);
+    font-style: italic;
+}
+
+
+.imgProd{
+    position: fixed;
+    z-index:100;
+    right: 5%;
+    top: 5%;
+    width:300px;
+    height:200px;
+}
+
 .imgProductHide{display: none;}
+
+
+.price{
+    font-family: var(--font-7);
+    color: var(--color1);
+    text-shadow: 1px 1px 1px #22222285;
+}
 
 .bi-camera{
     cursor: pointer;
     font-size: 30px;
+    color: var(--color2);
+    text-shadow: 1px 1px 1px #22222285;
+
 }
 
-
-
-
-
-
-
-
-
+.bi-camera:hover{opacity: 50%;}
 
 
 

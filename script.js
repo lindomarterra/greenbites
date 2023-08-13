@@ -15,23 +15,29 @@ function underlineEffect(){
 }
 
 
-
-    
-
-
-
-
 const iconCamera=document.getElementsByClassName('bi-camera')
-
 for(let i=0;i<iconCamera.length;i++){
-
-    iconCamera[i].addEventListener('click', ()=>{
-
-        const imgEachProduct= iconCamera[i].getElementById('imgProd')[0]
-        imgEachProduct.classList.remove('imgProductHide')
-
-    })
+    iconCamera[i].addEventListener('mouseover', showImg)
+    iconCamera[i].addEventListener('mouseout', hideImg)
 }
+
+function showImg(item){
+    const btn=item.target
+    const gettingParent=btn.parentElement
+    const img=gettingParent.getElementsByClassName('imgProd')[0]
+
+    img.classList.remove("imgProductHide")
+}
+function hideImg(item){
+    const btn=item.target
+    const gettingParent=btn.parentElement
+    const img=gettingParent.getElementsByClassName('imgProd')[0]
+    img.classList.add("imgProductHide")
+}
+
+
+
+
 
 
     
